@@ -5,5 +5,12 @@
         "year": "111",
         "color": "sdvs",
         "price": 111.0
+    },
+    {
+        "brand": "Fiat",
+        "model": "Uno",
+        "year": "1996",
+        "color": "çopnm",
+        "price": 8588.0
     }
 ]
