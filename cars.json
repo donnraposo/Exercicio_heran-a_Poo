@@ -12,5 +12,12 @@
         "year": "1996",
         "color": "çopnm",
         "price": 8588.0
+    },
+    {
+        "brand": "Chevrolet",
+        "model": "Prisma",
+        "year": "1996",
+        "color": "ljbjk",
+        "price": 12.0
     }
 ]

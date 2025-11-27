@@ -15,10 +15,8 @@ while True:
     if opcao == "1":
         print("\n--- CADASTRAR CARRO ---")
         brand = Cars.load_brand()
-        print("DEBUG brand =", brand)
-
         models = Cars.load_model(brand)
-        year = input("Ano: ")
+        year = Cars.validate_year()
         color = input("Cor: ")
         price = float(input("Preço: "))
 

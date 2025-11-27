@@ -97,7 +97,14 @@ class Cars(BaseModel):
             opcao = int(input("Escolha novamente: "))
 
         return models[brand][opcao]
+    @staticmethod
+    def validate_year():
+        year = input("Ano: ")
 
-                    
+        while not year.isdigit() or not (1900 <= int(year) <= 2026):
+            print("Ano inválido! Digite um ano entre 1900 e 2024.")
+            year = input("Ano: ")  
+
+        return year
 
         
